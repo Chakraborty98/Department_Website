@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>Medical Electronics Website</title>
+<link rel="stylesheet" href="style6.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+<a href="1.html"><img src="logo.png"></a>
+<div class="nav-links" id="navLinks">
+<i class="fa fa-times" onclick="hideMenu()"></i>
+<ul>
+<li><a href="1.html">HOME</a></li>
+<li><a href="2.html">ABOUT US</a></li>
+<li><a href="3.html">ACHIEVEMENTS</a></li>
+<li><a href="4.html">SYLLABUS</a></li>
+<li><a href="5.html">GALLERY</a></li>
+<li><a href="8.html">NOTES</a></li>
+<li><a href="6.html">NOTICE</a></li>
+<li><a href="7.html">CONTACT</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>CONTACT US</h1>
+</section>
+
+<!------------contact us------>
+
+<section class="location">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1278149514706!2d77.50384201477056!3d12.96367209086103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3e9c40000001%3A0x2d368cebf691c5fb!2sDr.%20Ambedkar%20Institute%20Of%20Technology!5e0!3m2!1sen!2sin!4v1620207162165!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section class="contact-us">
+<div class="row">
+<div class="contact-col">
+<div>
+<i class="fa fa-home"></i>
+<span>
+<h5>BDA, Outer Ring Rd, Near Gnana Bharathi</h5>
+<p>Bengaluru, Karnataka 560056</p>
+</span>
+</div>
+<div>
+<i class="fa fa-phone"></i>
+<span>
+<h5>5494964694694</h5>
+<p>Monday to Saturday, 9 AM to 5 PM</p>
+</span>
+</div>
+<div>
+<i class="fa fa-envelope-o"></i>
+<span>
+<h5>hod.ml@drait.edu.in</h5>
+<p>Email us your query</p>
+</span>
+</div>
+</div>
+<div class="contact-col">
+<form action="form-handler.php" method="post">
+<input type="text" name="name" placeholder="Enter your name" required>
+<input type="email" name="email" placeholder="Enter email address" required>
+<input type="text" name="subject" placeholder="Enter your subject" required>
+<textare rows="8" name="message" placeholder="Message" required></textarea>
+<button type="submit" class="button">Send Message</button>
+</form>
+
+
+
+
+
+
+
+
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------Footer--------------->
+<section class="footer">
+<h4>ABOUT COLLEGE</h4>
+<p>Dr.Ambedkar Institute Of Technology was started in the year 1980 under the auspices of Panchajanya Vidya Peeta Welfare Trust. Being a premier and oldest engineering college in the state of Karnataka Dr. AIT is situated in the garden city Bangalore.<br> Aided by Government of Karnataka, is affiliated to VTU Belagavi, Karnataka & approved by AICTE, New Delhi. An autonomous institution offering 11 under graduate programs, 10 post graduate programs & having 15 research centers.<br> <b>College Website: <a href="https://www.drait.edu.in/"> drait.edu.in </a></b></p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-linkedin"></i>
+<i class="fa fa-envelope-o"></i>
+</div>
+<p>Made by Abhishek Chakraborty (1DA19ML001)</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+navLinks.style.right = "0";
+}
+function hideMenu(){
+navLinks.style.right = "-200px";
+}
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
